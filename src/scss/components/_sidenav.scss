@@ -41,8 +41,8 @@
             padding: 0.5rem;
 
             .img-profile {
-                max-width: 10rem;
-                max-height: 10rem;
+                width: 100px;
+                height: 100px;
                 border: 0.5rem solid fade-out($white, 0.8);
             }
         }
@@ -70,4 +70,14 @@
             }
         }
     }
+}
+
+
+.img-profile {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 400px;
+    // margin: auto auto;
+    border: 0.5rem solid fade-out($white, 0.8);
 }
