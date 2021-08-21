@@ -38,3 +38,24 @@ p.lead {
     font-weight: 500;
     font-size: 1.5rem;
 }
+
+
+.skill-tags{
+    margin-left:0px;
+}
+
+.skill-tag{
+    background-color:#eceff5;
+    display:inline-block;
+    padding:4px 8px;
+    margin-bottom: 8px;
+}
+
+.project-icon {
+    font-size: 2rem;
+    text-decoration: none;
+    margin-top: 5%;
+    border-top: 5%
+    // margin-top: 20px;
+    // border-top: 20px; 
+}

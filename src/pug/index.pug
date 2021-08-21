@@ -46,7 +46,7 @@ html(lang='en')
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#skills') Skills
                     li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#interests') Interests
+                        a.nav-link.js-scroll-trigger(href='#projects') Projects
 
         // Page Content
         .container-fluid.p-0
@@ -215,15 +215,38 @@ html(lang='en')
 
             hr.m-0
 
-            // Interests
-            section#interests.resume-section
+            // Projects
+            section#projects.resume-section
                 .resume-section-content
-                    h2.mb-5 Interests
-                    p
-                        | Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.
-                    p.mb-0
-                        | When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.
+                    h2.mb-5 Projects
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 IAS Architecture 
+                            p
+                                | An implementation of the IAS Architecture written in python.
+                            .skill-tags 
+                                .skill-tag Python
+                                .skill-tag Python unittest
+                                .skill-tag BitStream
+                          
+                            a.social-icon.project-icon(href="https://github.com/hanzohasashi33/IAS-Architecture") 
+                                i.devicon-github-original.colored
 
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Game Deals 
+                            p
+                                | A Django web-app communicating with reddit's API to get video game deals of the day for various stores like steam, epic, etc.
+                            .skill-tags 
+                                .skill-tag Python
+                                .skill-tag Django 
+                                .skill-tag Praw
+                          
+                            a.social-icon.project-icon(href="https://github.com/hanzohasashi33/Game-Deals") 
+                                i.devicon-github-original.colored
+                        
+
+                    
             hr.m-0
 
             // Awards
